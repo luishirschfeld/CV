@@ -1,9 +1,18 @@
-* {
+* 
+#demo{color: red;}
+body{
+        background-color: blue;
+        color:white
+
+}
+
+
+p{
         color: blue;
 }
 
 p,  span {
-        color:red;
+        color:lightblue;
         width:300px;
         height:300px;
 }
