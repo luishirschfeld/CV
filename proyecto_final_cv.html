@@ -5,45 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cv</title>
-    <link rel="stylesheet" href="css\estilo_cv.css">
+    <link rel="stylesheet" href="css\estilo_cv.css" defer>
+    <script src="js\proyecto_cv.js"></script>
 </head>
 
 <body>
+  <div>
   <img src="https://randomuser.me/api/portraits/men/94.jpg" alt="100px">
-  
-<button type="button" onclick="alert('Buenas tardes, bienvenidos a mi CV online')">Hola
-</button>
-<div></div>
+</div>
 
- 
+ <button type="button" onclick="alert('Buenas tardes, bienvenidos a mi CV online')">Hola
+ </button>
+
   <h1>Greg Henderson</h1>
   
-  <p id="p1">
-    Información Personal:
-    <ul>
+  <h1>Información Personal:</h1>
+
+    <button id="botonl1" type="button" onclick="">Ver más</button>
+
+    <p>
+    <ul id="l1">
    <li>Mi dirección es : callefalsa 123</li>
-   <li>Mi dirección de mail es:</li> 
+   <li>Mi dirección de mail es:lee.gibson@example.com</li> 
    <li>Mi número de telefono es : (709) 379-3183</li>
   </ul>
    </ul>
+  </p>
 
+  <h2>Experiencia :</h2>
+  <button id="botonl2" type="button" onclick="">Ver más</button>
+  <p>
+    <ul class="l2">
+      <li>Profesor de música 2019-Actualidad</li>
+      <li>Productor musical 2016-Actualidad</li>
+      <li>Técnico químico 2011-2015</li>
+      <li>Atención al cliente 2008-2011</li>
+    </ul>
   </p>
-  <p id="p2">
-    Experiencia :
-    <ul>
-      <li>Técnico Químico</li>
-      <li>Productor Musical</li>
-      <li>Profesor de música</li>
-      </ul>
-  </p>
-  <p id="p3">
-    Habilidades:
-    <ul>
+
+  <h2>Habilidades:</h2>
+  <button id="botonl3" type="button" onclick="">Ver más</button>
+  <p>
+    <ul class="l3">
       <li>Programación en Html, CSS, Js</li>
       <li>Producción musical</li>
       <li>Pedagogía( Clases de música y programación)</li>
     </ul>
+  
   </p>
-
-  </body>
+ </body>
 </html>
