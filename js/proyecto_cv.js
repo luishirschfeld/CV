@@ -5,4 +5,4 @@ element.addEventListener("click", myFunction);
 function myFunction() {
   document.getElementById("l1").style.visibility = "visible";
 }
-const columnas = document.querySelectorAll("columna")
+
