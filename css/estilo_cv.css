@@ -8,10 +8,10 @@ img{
     
 }
 body{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.7);
 
-      background-color: rgba(255, 7, 7, 0.671);
+      background-color: rgba(46, 72, 102, 0.849);
     }
     
     @media only screen and (max-width: 800px) {
@@ -24,16 +24,20 @@ p{
 }
 
 Button {
-    color: rgb(146, 255, 126);
-     font-size: 16px; line-height: 16px; padding: 6px; border-radius: 20px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
-      box-shadow: rgb(164, 190, 161) 5px 5px 25px 18px; border: 2px solid rgb(21, 189, 49); display: inline-block;}
+    color: rgb(0, 0, 0);
+     font-size: 16px; line-height: 16px; padding: 6px; border-radius: 
+     20px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; 
+     font-style:normal; font-variant: normal; text-transform: none; 
+     background-image: linear-gradient(to right, rgb(115, 141, 158) 0%, rgb(142, 174, 216) 50%, rgb(20, 78, 117) 100%);
+     box-shadow: rgb(118, 145, 204) 5px 5px 25px 18px; border: 2px solid rgb(53, 78, 131); 
+      display: inline-block;}
     .myButton:hover {
-    background: #1ca42e; }
+    background: #b39b4f; }
     .myButton:active {
     background-color: inherit;}
 
 
 
 #icono{
-      color: black;
+      color: rgba(20, 23, 94, 0.966);
     }
