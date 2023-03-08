@@ -1,8 +1,10 @@
-#l1, .l2, .l3{
+#l1, #l2, #l3{
     visibility: hidden;
 }
 img{
     border-radius: 5rem;
+    
+
     
 }
 body{
@@ -31,3 +33,7 @@ Button {
     background-color: inherit;}
 
 
+
+#icono{
+      color: black;
+    }

@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cv</title>
     <link rel="stylesheet" href="css\estilo_cv.css" defer>
+    <script src="js\proyecto_cv.js" defer></script>
+    <script src="https://kit.fontawesome.com/c0302b18f9.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
+  <i id=icono class="fa-sharp fa-solid fa-user"></i>
   <div>
-  <img src="https://randomuser.me/api/portraits/men/94.jpg" alt="100px">
+  <img src="https://randomuser.me/api/portraits/men/8.jpg" alt="100px">
 </div>
 
  <button type="button" onclick="alert('Buenas tardes, bienvenidos a mi CV online')">Hola
@@ -18,15 +20,19 @@
 
   <h1>Greg Henderson</h1>
   
-  <h1>Información Personal:</h1>
+  <h2>Información Personal:</h2>
 
-    <button id="botonl1" type="button" onclick="">Ver más</button>
+    <button id="botonl1" type="button">Ver más</button>
 
     <p>
     <ul id="l1">
    <li>Mi dirección es : callefalsa 123</li>
-   <li>Mi dirección de mail es:lee.gibson@example.com</li> 
+   <li>Mi dirección de mail es:lee.gibson@example.com <i class="fa-solid fa-envelope fa-bounce" 
+    style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; 
+    --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; 
+    --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; --fa-bounce-rebound: 0;" ></i></li>
    <li>Mi número de telefono es : (709) 379-3183</li>
+
   </ul>
    </ul>
   </p>
@@ -34,7 +40,7 @@
   <h2>Experiencia :</h2>
   <button id="botonl2" type="button" onclick="">Ver más</button>
   <p>
-    <ul class="l2">
+    <ul id="l2">
       <li>Profesor de música 2019-Actualidad</li>
       <li>Productor musical 2016-Actualidad</li>
       <li>Técnico químico 2011-2015</li>
@@ -45,16 +51,15 @@
   <h2>Habilidades:</h2>
   <button id="botonl3" type="button" onclick="">Ver más</button>
   <p>
-    <ul class="l3">
+    <ul id="l3">
       <li>Programación en Html, CSS, Js</li>
       <li>Producción musical</li>
       <li>Pedagogía(Clases de música y programación)</li>
     </ul>
   
   </p>
-  <script src="js\proyecto_cv.js"></script>
   
- </body>
+</body>
 </html>
  </body>
 </html>
